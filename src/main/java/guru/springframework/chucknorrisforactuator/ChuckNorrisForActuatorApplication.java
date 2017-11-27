@@ -1,12 +1,12 @@
-package ps.learning.spring5webapp;
+package guru.springframework.chucknorrisforactuator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Spring5webappApplication {
+public class ChuckNorrisForActuatorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Spring5webappApplication.class, args);
+		SpringApplication.run(ChuckNorrisForActuatorApplication.class, args);
 	}
 }
