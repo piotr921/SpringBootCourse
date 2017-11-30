@@ -1,117 +1,141 @@
+######################
+# Project Specific
+######################
+/build/www/**
+/src/test/javascript/coverage/
+/src/test/javascript/PhantomJS*/
 
-# Created by https://www.gitignore.io/api/linux,maven,windows,intellij+iml
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
 
-### Intellij+iml ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+######################
+# SASS
+######################
+.sass-cache/
 
-# User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
 
-# Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea*
+# External tool builders
+.externalToolBuilders/**
 
-# Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# CMake
-cmake-build-debug/
+# CDT-specific
+.cproject
 
-# Mongo Explorer plugin:
-.idea/**/mongoSettings.xml
+# PDT-specific
+.buildpath
 
-## File-based project format:
-*.iws
-
-## Plugin-specific files:
-
-# IntelliJ
-/out/
-
-# mpeltonen/sbt-idea plugin
-.idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
-
-# Cursive Clojure plugin
-.idea/replstate.xml
-
-# Ruby plugin and RubyMine
-/.rakeTasks
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
-### Intellij+iml Patch ###
-# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
-
+######################
+# Intellij
+######################
+.idea/
 *.iml
-modules.xml
-.idea/misc.xml
+*.iws
 *.ipr
+*.ids
+*.orig
 
-### Linux ###
-*~
+######################
+# Visual Studio Code
+######################
+.vscode/
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+######################
+# Maven
+######################
+/log/
+/target/
 
-# KDE directory preferences
-.directory
+######################
+# Gradle
+######################
+.gradle/
+/build/
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
 
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
-
-### Maven ###
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
-
-### Windows ###
-# Windows thumbnail cache files
+######################
+# Windows
+######################
+# Windows image file caches
 Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
 
 # Folder config file
 Desktop.ini
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Thumbnails
+._*
 
-# Windows shortcuts
-*.lnk
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-# End of https://www.gitignore.io/api/linux,maven,windows,intellij+iml
+######################
+# Directories
+######################
+/bin/
+/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache
