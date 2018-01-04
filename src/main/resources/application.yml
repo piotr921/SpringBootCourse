@@ -3,3 +3,11 @@ guru:
     username: Jms Name
     password: 34%
     dburl: www.jms.com
+
+---
+spring:
+  profiles: de
+
+guru:
+  jms:
+    username: ullrich jms
