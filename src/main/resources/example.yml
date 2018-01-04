@@ -1,0 +1,26 @@
+#comment
+
+name: John
+names: #names
+  - John
+  - Paul
+  - Ringo
+
+pound_sign: "#"
+
+book:
+  author: John Doe
+  publisher: Pwn
+
+bulin: yes #TRUE, true will also be fine
+
+many_lines: |
+one line
+two line
+three line
+
+concatenate_lines >
+one
+two
+thee
+in one line

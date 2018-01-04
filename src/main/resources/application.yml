@@ -1,0 +1,5 @@
+guru:
+  jms:
+    username: Jms Name
+    password: 34%
+    dburl: www.jms.com
